@@ -25,7 +25,7 @@ for (let i = 0; i < listaDeTeclas.length; i++) {
     }
   };
   //Add evento no teclado com o onkeyup
-  tecla.onleyup = function () {
+  tecla.onkeyup = function () {
     tecla.classList.remove("ativa");
   };
 }
